@@ -2,8 +2,10 @@
     Pizza Template
 */
 
+th, td {
+    padding: 20px;
 
-
+}
 .pagination {
     margin-top: 60px;
     margin-bottom: 60px;
