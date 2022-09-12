@@ -17,7 +17,7 @@
                     {% with total_items=cart|length %}
                     {% if cart|length > 0 %}
                     <h4 style="line-height: 43px;font-size: 16px;">В корзине: <a href="{% url 'cart:cart_detail' %}" style="">
-                        {{ total_items }} шт,${{ cart.get_total_price }}
+                        {{ total_items }} шт, {{ cart.get_total_price }} BYN
                     </a></h4>
 
                     {% else %}
